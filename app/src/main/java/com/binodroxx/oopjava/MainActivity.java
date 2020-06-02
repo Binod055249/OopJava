@@ -1,6 +1,7 @@
 package com.binodroxx.oopjava;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 //        Toast.makeText(this, ""+Boxer.getStamina(), Toast.LENGTH_SHORT).show();
 //        Log.i("myTag",Boxer.getStamina()+"" );
 //
-//        Log.i("myTag",Boxer.getStamina()+"" );
+    Log.i("myTag",Boxer.getStamina()+"" );
 
 
 
