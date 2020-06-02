@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 //
     Log.i("myTag",Boxer.getStamina()+"" );
 
-
+        Log.i("myTag",Boxer.getStamina()+"" );
 
         final Boxer boxer =new Boxer();
         throwJab.setOnClickListener(new View.OnClickListener() {
